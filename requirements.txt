@@ -1,0 +1,15 @@
+# Core dependencies for the TUI music manager.
+# Install everything with:  pip install -r requirements.txt
+# (sqlite3 is part of the Python standard library, so it has no entry here.)
+
+textual          # the TUI framework — builds the interactive terminal interface
+spotipy          # Spotify Web API client — search + metadata only (no audio download)
+yt-dlp           # YouTube + SoundCloud search and best-quality audio download
+mutagen          # reads/writes audio metadata tags (ID3, cover art, etc.)
+python-dotenv    # loads secrets from a .env file into environment variables
+
+# Development / testing
+pytest           # test runner for the tests/ suite
+
+# Tip: once everything works, pin exact versions for reproducibility with:
+#   pip freeze > requirements.txt

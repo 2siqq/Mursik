@@ -1,0 +1,15 @@
+# Secrets — never commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# Local database and downloaded audio
+*.db
+downloads/
