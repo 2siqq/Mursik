@@ -13,3 +13,4 @@ venv/
 # Local database and downloaded audio
 *.db
 downloads/
+.DS_Store
