@@ -7,6 +7,9 @@ spotipy          # Spotify Web API client — search + metadata only (no audio d
 yt-dlp           # YouTube + SoundCloud search and best-quality audio download
 mutagen          # reads/writes audio metadata tags (ID3, cover art, etc.)
 python-dotenv    # loads secrets from a .env file into environment variables
+requests         # HTTP client used by MusicLibrary._fetch_cover to fetch album art
+                 # (already a transitive dependency of spotipy; listed explicitly
+                 # so the version is managed and the dependency is visible)
 
 # Development / testing
 pytest           # test runner for the tests/ suite

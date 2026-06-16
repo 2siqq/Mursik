@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# Add the project root to sys.path so `from library.x import y` works in tests.
+# pythonpath is a pytest setting (6.0+) that prepends paths to sys.path before
+# collection starts — no need for sys.path manipulation in conftest.py.
+pythonpath = ["."]
