@@ -1,5 +1,7 @@
 # Secrets — never commit these
 .env
+# spotipy's OAuth token cache (created at runtime when authenticating)
+.cache
 
 # Python
 __pycache__/
