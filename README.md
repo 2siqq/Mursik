@@ -1,4 +1,4 @@
-# TUI Music Manager
+# TUI DJ Music Manager
 
 A local, single-user terminal application for searching, downloading, and
 organizing music. It searches Spotify, YouTube, and SoundCloud at once,
